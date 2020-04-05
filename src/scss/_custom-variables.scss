@@ -1,0 +1,56 @@
+// Overwrite Bootstrap's variables here
+// You can find them in node_modules/bootstrap/scss/_variables.scss
+// Copy the variables you need into this file, don't modify files under node_modules/
+
+// Some example variables that you can uncomment:
+
+// Enabling shadows and gradients
+//$enable-shadows: true;
+//$enable-gradients: true;
+
+// Changing the body background and text
+//$body-bg: #d3e9eb;
+//$body-color: #151417;
+
+// Changing the border radius of buttons
+//$border-radius: 15px;
+
+// Changing the theme colors
+$primary: #E35205;
+$secondary: #00d7b9;
+//$success: #2bc550;
+//$info: #495dff;
+//$warning: #ef8143;
+//$danger: #ff293a;
+//$light: #dfe6ee;
+$dark: #65686B;
+
+
+// Adding (!) an additional theme color (ex. classes btn-cool, bg-cool)
+//$theme-colors: (
+//  "cool": #4d3fa3
+//);
+
+// stylelint-disable value-keyword-case
+//$font-family-sans-serif:      -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+//$font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$font-family-base: 'CentraNo1-Book';
+
+$headings-font-family: 'CentraNo1-Extrabold';
+$headings-color: $primary;
+
+
+// Breadcrumbs
+
+//$breadcrumb-padding-y:              .75rem !default;
+//$breadcrumb-padding-x:              1rem !default;
+//$breadcrumb-item-padding:           .5rem !default;
+
+//$breadcrumb-margin-bottom:          1rem !default;
+
+//$breadcrumb-bg:                     $gray-200 !default;
+//$breadcrumb-divider-color:          $gray-600 !default;
+//$breadcrumb-active-color:           $gray-600 !default;
+$breadcrumb-divider:                quote(">");
+
+//$breadcrumb-border-radius:          $border-radius !default;

@@ -1,0 +1,400 @@
+// Add additional styles here. For example, overwrite certain styles or add new components.
+// Tip: You can use bootstrap's powerful mixins here!
+
+//.alert-myalert {
+//  @include alert-variant(#60667d, #1d1d1d, #f4fdff);
+//}
+
+//@each $color, $value in $theme-colors {
+//  .alert-#{$color} {
+//    box-shadow: 3px 3px theme-color-level($color, -3);
+//  }
+//}
+
+/***** Tags *****/
+html * {
+  font-size: 1em;
+  color: #000;
+  font-family: "GT-Walsheim-Pro-Regular";
+}
+/* Color Codes */
+$color1: #e35205;
+$color2: #65686b;
+$color3: #f3f3f3;
+$color4: #dededf;
+$color5: #9ba2ab;
+$color6: #82c31b;
+$color7: #689d16;
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: $color5;
+  opacity: 1; /* Firefox */
+}
+::-webkit-input-placeholder {
+  /* Edge */
+  color: $color5;
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: $color5;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: $color5;
+}
+h1 {
+  font-family: "Museo_Slab_500";
+  font-size: 60px;
+}
+h2 {
+  font-family: "GT-Walsheim-Pro-Bold";
+  font-size: 42px;
+}
+body {
+  font-family: "GT-Walsheim-Pro-Regular";
+  font-size: 26px;
+  color: $dark;
+  padding-top: 10px;
+}
+button {
+  font-family: "GT-Walsheim-Pro-Bold";
+  font-size: 30px;
+}
+.bg-color-one {
+  background-color: #f3f3f3;
+}
+.bg-color-two {
+  background-color: #e35205;
+}
+.bg-color-three {
+  background-color: #82c31b;
+}
+
+p,
+ul,
+li {
+  font-size: 16px;
+}
+
+/* Breadcrumb */
+ol.breadcrumb li {
+  font-size: 14px;
+}
+
+ol.events-list li {
+  padding-bottom: 12px;
+}
+
+/***** Hero *****/
+.hero img {
+  height: 460px;
+}
+
+.hero .display-4 {
+  font-size: 2.4rem;
+}
+
+.w-20 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 20%;
+  flex: 0 0 20%;
+  max-width: 20%;
+}
+
+@media (min-width: 576px) {
+  .w-sm-20 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+}
+
+@media (min-width: 768px) {
+  .w-md-20 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+}
+
+@media (min-width: 992px) {
+  .w-lg-20 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+
+  .hero img {
+    height: auto;
+  }
+
+  .hero .display-4 {
+    font-size: 2.8rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1186px;
+  }
+
+  .w-xl-20 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+}
+/* banner section*/
+.container_banner .typo_color {
+  color: #65686b;
+  font-size: 50px;
+}
+.container_banner h1 span {
+  font-size: 50px;
+  color: #e35205;
+}
+.button-container button,
+.btn-bg {
+  border: 3px solid transparent !important;
+  outline: 1px solid transparent;
+}
+.button-container button:hover,
+.btn-bg:hover {
+  border: 3px solid transparent !important;
+  outline: 1px solid #e35205;
+}
+.btn-border {
+  border: 2px solid #dededf;
+  background-color: transparent;
+  border-radius: 0px;
+  color: #65686b;
+  height: auto;
+}
+.btn-border:hover {
+  border: 2px solid #e35205;
+  color: #e35205;
+  background-color: transparent;
+}
+.btn-bg {
+  background-color: $color1;
+  border-radius: 0px;
+  height: auto;
+  width: 100%;
+  font-size: 30px;
+}
+/* Please tell us screen */
+.plz-tel-us-main h1 {
+  font-family: "GT-Walsheim-Pro-Bold";
+  color: $color2;
+}
+.plz-tel-us-main .telus_btn {
+  width: 30%;
+}
+.plz-tel-us-main input[type="checkbox"] {
+  opacity: 0;
+}
+.plz-tel-us-main .form-group .select_btns {
+  width: max-content;
+}
+.Why-choose-section {
+  position: relative;
+}
+.Why-choose-section .triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 70px solid transparent;
+  border-right: 70px solid transparent;
+  border-top: 70px solid #f3f3f3;
+  display: inline-block;
+  position: absolute;
+  right: 10%;
+}
+.Why-choose h1 {
+  color: $color2;
+}
+.side-by-side-img h2 {
+  font-family: "Museo_Slab_500";
+  color: $color1;
+}
+.key-services p,
+.key-services h1 {
+  color: $color2;
+}
+.search-bar {
+  padding: 180px 0px !important;
+}
+.search-bar span {
+  color: $color1;
+}
+.search-bar h1 {
+  color: $color2;
+}
+.search-bar .input-group input {
+  padding: 25px;
+}
+.search-bar .input-group-append .fa-search:before {
+  font-size: 25px;
+  color: $color2;
+}
+.search-bar .input-group-append .fas.fa-search:hover:before {
+  color: $color1;
+}
+.map_icon {
+  width: 22px;
+  height: 22px;
+  position: relative;
+}
+.map_icon img:hover {
+  position: absolute;
+  top: 16px;
+  left: 0;
+  width: 21px;
+  height: auto;
+  display: block;
+  z-index: 999;
+}
+.address_line_img {
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+}
+.address_line {
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+}
+.location_address p {
+  font-size: 13px;
+}
+.get_more_locations h1,
+.get_more_locations h3 {
+  font-family: "GT-Walsheim-Pro-Bold";
+  color: $color2;
+}
+
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 320px) and (max-width: 767px) {
+  .container_banner .typo_color,
+  .container_banner h1 span {
+    font-size: 30px;
+  }
+  h1 {
+    font-size: 26px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  .btn-border,
+  .btn-bg {
+    font-size: 18px;
+  }
+  .plz-tel-us-main .telus_btn {
+    width: 100%;
+  }
+  .plz-tel-us-main label {
+    font-size: 14px;
+  }
+  .Why-choose-section .triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 40px solid #f3f3f3;
+    display: inline-block;
+    position: absolute;
+    right: 10%;
+  }
+  .search-bar {
+    padding: 180px 30px !important;
+  }
+  .footer-section {
+    padding-top: 50px !important;
+  }
+  .footer-section img {
+    width: 15%;
+  }
+  .list-group {
+    position: relative;
+  }
+  .list-group li:after {
+    position: absolute;
+    height: 2px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: 5px;
+    width: 95%;
+    background: $color4;
+    content: "";
+  }
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 42px;
+  }
+  .btn-border,
+  .btn-bg {
+    font-size: 15px;
+  }
+  .header-logo {
+    background-image: url(assets/imgs/Logo1.png);
+    height: 70px;
+    background-size: contain;
+    width: 300px;
+    background-repeat: no-repeat;
+  }
+  .container_banner .typo_color,
+  .container_banner h1 span {
+    font-size: 25px;
+  }
+  .plz-tel-us-main .telus_btn {
+    width: 50%;
+  }
+  .footer-section img {
+    width: 10%;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 42px;
+  }
+  .container_banner .typo_color,
+  .container_banner h1 span {
+    font-size: 25px;
+  }
+  .plz-tel-us-main .telus_btn {
+    width: 40%;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .container_banner .typo_color,
+  .container_banner h1 span {
+    font-size: 40px;
+  }
+  .plz-tel-us-main .telus_btn {
+    width: 30%;
+  }
+}
