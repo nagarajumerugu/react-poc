@@ -1,0 +1,277 @@
+﻿/* ===================Header=================== */
+.header-logo {
+    background-image: url('../Images/Logo2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-indent: -9999;
+    width: 30px;
+    height: 30px;
+}
+
+.header-link {
+    text-align: left;
+    font: Regular 26px/31px GT Walsheim Pro;
+    letter-spacing: 0.52px;
+    color: #65686B !important;
+    opacity: 1;
+}
+
+.header-link:hover, .header-link:active {
+    text-align: left;
+    font: Regular 26px/31px GT Walsheim Pro;
+    letter-spacing: 0.52px;
+    color: #E35205 !important;
+    opacity: 1;
+}
+/* ===================/Header=================== */
+/* ===================Footer=================== */
+.footer-section {
+    background: #F3F3F3 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.chevron-right {
+    color: #E35205 !important;
+}
+
+.footer-list-background {
+    background: #F3F3F3 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.footer-a-link {
+    text-align: left;
+    font: Regular 14px/31px GT Walsheim Pro;
+    letter-spacing: 0.28px;
+    color: #65686B;
+    opacity: 1;
+}
+
+    .footer-a-link:hover {
+        text-align: left;
+        font: Regular 14px/31px GT Walsheim Pro;
+        letter-spacing: 0.28px;
+        color: #E35205;
+        opacity: 1;
+        text-decoration: none;
+    }
+
+/* ===================/Footer=================== */
+/* ==================Home======================= */
+/* ===================section1=================== */
+
+.section-1-heading {
+    text-align: left;
+    font: 500 40px Museo Slab;
+    letter-spacing: 1.2px;
+    opacity: 1;
+    color: #65686B;
+}
+
+    .section-1-heading span {
+        color: #E35205;
+    }
+
+.section-1-content {
+    text-align: left;
+    font: Regular 26px/38px GT Walsheim Pro;
+    letter-spacing: 0.52px;
+    color: #65686B;
+    opacity: 1;
+}
+/* ===================/section1=================== */
+
+/* ===================schedule a visit button =================== */
+.schedule-a-visit-button,
+.next-button,
+.schedule-at-this-location,
+.see-full-list-of-locations {
+    background: #E35205 0% 0% no-repeat padding-box;
+    font-size: 30px/34px;
+    font-weight: 500 !important;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+    .schedule-a-visit-button:hover,
+    .next-button:hover,
+    .schedule-at-this-location:hover,
+    .see-full-list-of-locations:hover {
+        color: #FFFFFF !important;
+    }
+/* ===================/schedule a visit button =================== */
+
+.scroll-text {
+    font: Regular 20px/31px GT Walsheim Pro;
+    letter-spacing: 0.4px;
+    color: #65686B;
+    opacity: 1;
+}
+
+.section-3 {
+    background: #F3F3F3 0% 0% no-repeat;
+    opacity: 1;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-3-heading {
+    text-align: center;
+    font: 500 40px Museo Slab;
+    letter-spacing: 1.2px;
+    color: #65686B;
+    opacity: 1;
+}
+
+.section-4-heading {
+    text-align: left;
+    font: 500 40px Museo Slab;
+    letter-spacing: 1.2px;
+    color: #E35205;
+    opacity: 1;
+}
+
+.section-4-content {
+    text-align: left;
+    font: Regular 26px GT Walsheim Pro;
+    letter-spacing: 0.52px;
+    color: #65686B;
+    opacity: 1;
+}
+
+.key-services-offered-heading {
+    text-align: center;
+    font: 500 40px Museo Slab;
+    letter-spacing: 1.2px;
+    color: #65686B;
+    opacity: 1;
+}
+
+.search-button {
+    opacity: 1
+}
+
+.search-bar-label {
+    text-align: left;
+    font: Bold 22px/30px GT Walsheim Pro;
+    letter-spacing: 0.66px;
+    color: #65686B;
+}
+
+.search-bar-container {
+    /* height: 200px; */
+}
+
+.border-radius-unset {
+    border-radius: unset !important;
+}
+
+.search-bar-label span {
+    color: #E35205;
+}
+
+.location-details,
+.success-details {
+    font: Regular 26px/29px GT Walsheim Pro;
+    letter-spacing: 0.78px;
+    color: #65686B;
+}
+
+.full-list-heading,
+.success-details-heading {
+    text-align: left;
+    font: Bold 42px/48px GT Walsheim Pro;
+    letter-spacing: 0.97px;
+    color: #65686B;
+}
+
+.find-us-here-heading {
+    text-align: left;
+    font: Bold 30px/34px GT Walsheim Pro;
+    letter-spacing: 0.9px;
+    color: #65686B;
+}
+
+.out-of-range,
+.success-location {
+    text-align: left;
+    font: Regular 42px/48px GT Walsheim Pro;
+    letter-spacing: 0.97px;
+}
+
+    .out-of-range span,
+    .success-location span {
+        text-align: left;
+        font: Bold 42px/48px GT Walsheim Pro;
+        letter-spacing: 0.97px;
+        color: #65686B;
+    }
+
+.reason-radio-button {
+    text-align: center;
+    font: Regular 14px/16px GT Walsheim Pro;
+    letter-spacing: 0.28px;
+    color: #65686B;
+    background-color: #FFFFFF;
+}
+
+/* .location-details-image {
+  max-width: 100%;
+  height:auto;
+} */
+
+
+/* =================== Media queries ============================== */
+@media (min-width: 768px) {
+    .navbar-expand-md {
+        -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+
+    .header-logo {
+        background-image: url('../Images/Logo1.png');
+        width: 400px;
+        height: 60px;
+    }
+
+    .chevron-right {
+        display: none;
+    }
+
+    .footer-section {
+        height: 300px;
+        bottom: 0px !important;
+        left: 0px;
+        right: 0;
+        position: relative;
+    }
+
+    .search-bar-label {
+        text-align: center;
+        font: 500 60px/68px Museo Slab;
+        letter-spacing: 1.2px;
+        opacity: 1;
+    }
+
+    .schedule-at-this-location {
+        width: 75%;
+    }
+
+    .location-details-image {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    /* .search-bar-container {
+    display: none;
+  } */
+    .scroll-for-more-info {
+        display: none;
+    }
+}
