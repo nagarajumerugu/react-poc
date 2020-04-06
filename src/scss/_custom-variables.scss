@@ -10,7 +10,7 @@
 
 // Changing the body background and text
 //$body-bg: #d3e9eb;
-//$body-color: #151417;
+$body-color: #65686B;
 
 // Changing the border radius of buttons
 //$border-radius: 15px;
@@ -18,11 +18,11 @@
 // Changing the theme colors
 $primary: #E35205;
 $secondary: #00d7b9;
-//$success: #2bc550;
+$success: #689D16;
 //$info: #495dff;
 //$warning: #ef8143;
 //$danger: #ff293a;
-//$light: #dfe6ee;
+$light: #f3f3f3;
 $dark: #65686B;
 
 
@@ -34,9 +34,9 @@ $dark: #65686B;
 // stylelint-disable value-keyword-case
 //$font-family-sans-serif:      -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
 //$font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
-$font-family-base: 'CentraNo1-Book';
+$font-family-base: 'GT-Walsheim-Pro-Regular';
 
-$headings-font-family: 'CentraNo1-Extrabold';
+$headings-font-family: 'GT-Walsheim-Pro-Bold';
 $headings-color: $primary;
 
 
@@ -51,6 +51,8 @@ $headings-color: $primary;
 //$breadcrumb-bg:                     $gray-200 !default;
 //$breadcrumb-divider-color:          $gray-600 !default;
 //$breadcrumb-active-color:           $gray-600 !default;
-$breadcrumb-divider:                quote(">");
+//$breadcrumb-divider:                quote(">");
 
 //$breadcrumb-border-radius:          $border-radius !default;
+
+$link-hover-decoration:                   none;

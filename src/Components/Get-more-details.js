@@ -14,11 +14,7 @@ function Getmoredetails() {
               </h1>
               <div class="row border-bottom py-4">
                 <div class="col-2 col-md-1">
-                  <img
-                    class="img-fluid"
-                    src="/assets/imgs/Ic_Location.svg"
-                    alt=""
-                  />
+                  <img class="img-fluid" src="/Images/Ic_Location.svg" alt="" />
                 </div>
                 <div class="col-10 col-md-11 align-self-center">
                   <p class="m-0">
@@ -28,11 +24,7 @@ function Getmoredetails() {
               </div>
               <div class="row border-bottom py-4">
                 <div class="col-2 col-md-1">
-                  <img
-                    class="img-fluid"
-                    src="/assets/imgs/ic_Calendar.svg"
-                    alt=""
-                  />
+                  <img class="img-fluid" src="/Images/ic_Calendar.svg" alt="" />
                 </div>
                 <div class="col-10 col-md-11  align-self-center">
                   <p class="m-0">
@@ -43,7 +35,7 @@ function Getmoredetails() {
               </div>
               <div class="row border-bottom py-4">
                 <div class="col-2 col-md-1">
-                  <img class="img-fluid" src="/assets/imgs/Ic_Van.svg" alt="" />
+                  <img class="img-fluid" src="/Images/Ic_Van.svg" alt="" />
                 </div>
                 <div class="col-10 col-md-11  align-self-center">
                   <p class="m-0">
@@ -62,7 +54,7 @@ function Getmoredetails() {
           <div class="d-flex flex-column text-center">
             <div class="col ">
               <a href="#">
-                <img class="img-fluid" src="assets/imgs/ScrollArrow.svg" />
+                <img class="img-fluid" src="/Images/ScrollArrow.svg" />
               </a>
             </div>
           </div>
